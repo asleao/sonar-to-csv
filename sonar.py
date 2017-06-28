@@ -28,7 +28,7 @@ csv_file.write(header)
 for history in histories:
     date_hitory = history['date']
     date = set_date(history['date'])
-    value = history['value']
+    value = history['value'].replace(".", ",")
     csv_file.write(set_row(date, value))
 
 csv_file.close()
