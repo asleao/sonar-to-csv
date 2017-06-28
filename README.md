@@ -1,2 +1,7 @@
 # sonar-to-csv
-Convertendo as métricas do sonar para um arquivo csv
+
+Para converter execute o comando:
+
+```
+python sonar.py <input_caminho_arquivo_json> <output_caminho_arquivo_csv>
+```
